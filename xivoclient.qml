@@ -55,15 +55,15 @@ ApplicationWindow {
 
                 x: parent.x + 15
                 y: parent.y + 30
-                width: hideButtonImage.width
-                height: hideButtonImage.height
+                width: 30
+                height: 30
                 color: "transparent"
 
                 Image {
                     id: hideButtonImage
 
                     source: "content/images/hide.svg"
-                    sourceSize: Qt.size(30, 30)
+                    sourceSize: Qt.size(parent.width, parent.height)
                     visible: false
                 }
 
