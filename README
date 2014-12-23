@@ -1,0 +1,11 @@
+Prerequisites
+=============
+
+You need Qt >= 5.2 installed and qmlscene in your $PATH.
+
+Run
+===
+
+You can run this software with the following command:
+
+$ qmlscene xivoclient.qml
