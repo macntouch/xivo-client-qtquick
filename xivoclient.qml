@@ -59,7 +59,7 @@ ApplicationWindow {
                 Image {
                     id: hideButtonImage
 
-                    source: "/home/seb/data/specs/xivoclient-ui/charte_applicative_XiVO_2014_v1/icones/hide.svg"
+                    source: "content/images/hide.svg"
                     sourceSize: Qt.size(30, 30)
                     visible: false
                 }
