@@ -69,7 +69,6 @@ ApplicationWindow {
                     anchors.fill: hideButtonImage
                     source: hideButtonImage
                     color: "#ffe77d39"
-                    // cached: false
                 }
 
                 MouseArea {
