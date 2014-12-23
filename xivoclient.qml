@@ -5,11 +5,13 @@ import QtGraphicalEffects 1.0
 
 ApplicationWindow {
     id: container
+
     height: 1000
     width: 1000
 
     Rectangle {
         id: mainwindow
+
         height: container.height
         width: container.width
         state: "BODY_SHOWN"
@@ -50,6 +52,7 @@ ApplicationWindow {
 
             Rectangle {
                 id: hideButton
+
                 x: parent.x + 15
                 y: parent.y + 30
                 width: hideButtonImage.width
@@ -66,6 +69,7 @@ ApplicationWindow {
 
                 ColorOverlay {
                     id: hideButtonImageOverlay
+
                     anchors.fill: hideButtonImage
                     source: hideButtonImage
                     color: "#ffe77d39"
@@ -73,6 +77,7 @@ ApplicationWindow {
 
                 MouseArea {
                     id: hideButtonMouseArea
+
                     anchors.fill: parent
 
                     onClicked: {
