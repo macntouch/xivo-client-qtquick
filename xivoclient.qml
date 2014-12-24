@@ -111,7 +111,6 @@ ApplicationWindow {
     statusBar: StatusBar {
         id: statusbar
 
-        anchors.bottom: parent.bottom
         RowLayout {
             anchors.fill: parent
             Label { text: "Connected" }
