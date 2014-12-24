@@ -15,9 +15,7 @@ Rectangle {
         Image {
             id: logo
 
-            x: (parent.width - width) / 2 // center?
-            anchors.topMargin: 20
-            anchors.top: parent.top
+            anchors.centerIn: parent
             source: "content/images/logo.svg"
             sourceSize: Qt.size(234, 97)
             visible: true
